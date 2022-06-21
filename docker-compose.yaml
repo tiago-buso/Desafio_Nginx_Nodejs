@@ -5,6 +5,7 @@ services:
     build:
       context: node
     container_name: app     
+    restart: always
     networks:
       - node-network
     volumes:
